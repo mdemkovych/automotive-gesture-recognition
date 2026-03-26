@@ -1,0 +1,74 @@
+# =============================================================================
+# .gitignore — IoT Climate Control System
+# =============================================================================
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── IDEs & editors ────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.sln.docstates
+*.sublime-project
+*.sublime-workspace
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Arduino build artefacts ───────────────────────────────────────────────────
+# Compiled hex / elf files — keep source, ignore binaries
+firmware/**/*.hex
+firmware/**/*.elf
+firmware/**/*.bin
+firmware/**/*.map
+
+# ── Proteus workspace (machine-specific) ─────────────────────────────────────
+simulation/*.workspace
+
+# ── Logs & temporary files ────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
